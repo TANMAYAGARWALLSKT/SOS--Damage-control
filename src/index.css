@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.shadow-sos {
+  box-shadow: 3px 3px 3px 3px rgba(226, 74, 24, 0.194);
+  animation: infinite 2s linear shadow-opacity;
+}
+@keyframes shadow-opacity {
+  0% {
+    box-shadow: 3px 3px 3px 3px rgba(226, 74, 24, 0.516);
+  }
+  50% {
+    box-shadow: 3px 3px 3px 3px rgba(226, 74, 24, 0.194);
+  }
+  100% {
+    box-shadow: 3px 3px 3px 3px rgba(226, 74, 24, 0.516);
+  }
+}
